@@ -208,10 +208,10 @@ public class Server {
 
         public DatabaseConnector() {
             try {
-                Class.forName("com.mysql.cj.jdbc.Driver");
-                Connection connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
+//                Class.forName("com.mysql.cj.jdbc.Driver");
+                connection = DriverManager.getConnection(DB_URL, DB_USERNAME, DB_PASSWORD);
                 System.out.println("[+] Database Connected Successfully");
-            } catch (SQLException | ClassNotFoundException e) {
+            } catch (SQLException  e) {
                 e.printStackTrace();
             }
         }

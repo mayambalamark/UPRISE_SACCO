@@ -11,8 +11,8 @@ public class DatabaseConnector{
         //register the class driver
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            String url = "jdbc:mysql://localhost/sacco_db";
-            Connection conn = DriverManager.getConnection(url, "root", "Codezilla@21");
+            String url = "jdbc:mysql://localhost/upraise_sacco";
+            Connection conn = DriverManager.getConnection(url, "MumbereJoshua", "Hazard*10");
             System.out.println("[+] Db Connection Successful");
             conn.close();
 
