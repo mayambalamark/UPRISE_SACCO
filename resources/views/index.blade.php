@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
   
-    <title> Upraise Sacco</title>
+    <title> Uprise Sacco</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
   
@@ -16,7 +16,7 @@
     <!-- Custom CSS -->
     {{-- <link rel="{{assets('stylesheet" href="style2.css')}}"> --}}
     <link href="assets/css/style2.css" rel="stylesheet">
-    <title>Upraise Sacco</title>
+    <title>Uprise Sacco</title>
 </head>
 
 <body>
@@ -32,7 +32,7 @@
                         <path fill-rule="evenodd"
                             d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z" />
                     </svg> <a class="navbar-brand theme-text" href="#">
-                        &nbsp;Upraise Sacco</a>
+                        &nbsp;Uprise Sacco</a>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -49,9 +49,9 @@
                             <li class="nav-item">
                                 <a class="nav-link" href="/login">Login</a>
                             </li>
-                            <li class="nav-item">
+                            {{-- <li class="nav-item">
                                 <a class="nav-link" href="/regist">Register</a>
-                            </li>
+                            </li> --}}
                         </ul>
 
                     </div>
@@ -60,7 +60,7 @@
             <!-- navbar code -->
             <div class="middle">
                 <h1 class="text-white display-3 fw-bold">Grow better Financially <span class="theme-text">with
-                       Upraise Sacco  </span>.</h1>
+                       Uprise Sacco  </span>.</h1>
             </div>
         </div>
         <svg class="wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">

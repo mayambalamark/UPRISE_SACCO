@@ -45,7 +45,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">Upraise Admin</span>
+        <span class="d-none d-lg-block">Uprise Admin</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -565,11 +565,11 @@
                     </div>
 
                     <div class="col-12">
-                      <label for="yourUsername" class="form-label">Username</label>
+                      <label for="NIN" class="form-label">NIN</label>
                       <div class="input-group has-validation">
                         {{-- <span class="input-group-text" id="inputGroupPrepend">@</span> --}}
-                        <input type="text" name="username" class="form-control" id="yourUsername" required>
-                        <div class="invalid-feedback">Please choose a username.</div>
+                        <input type="text" name="NIN" class="form-control" id="NIN" required>
+                        <div class="invalid-feedback">Please Enter valid.</div>
                       </div>
                     </div>
 
@@ -590,9 +590,9 @@
                     <div class="col-12">
                       <button class="btn btn-primary w-100" type="submit">Create Account</button>
                     </div>
-                    <div class="col-12">
+                    {{-- <div class="col-12">
                       <p class="small mb-0">Already have an account? <a href="/login">Log in</a></p>
-                    </div>
+                    </div> --}}
                   </form>
                   {{-- <div class="col-12">
                     <button class="btn btn-primary w-100" type="submit">Back</button>
@@ -606,20 +606,20 @@
                 <!-- You can delete the links only if you purchased the pro version. -->
                 <!-- Licensing information: https://bootstrapmade.com/license/ -->
                 <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/nice-admin-bootstrap-admin-html-template/ -->
-                Designed by <a href="https://bootstrapmade.com/">Upraise support</a>
+                {{-- Designed by <a href="https://bootstrapmade.com/">Upraise support</a> --}}
               </div>
 
             </div>
           </div>
         </div>
-        <div>
+        {{-- <div>
           {{-- <aside id="sidebar" class="sidebar"> --}}
-            <li class="nav-item">
-           <a class="nav-link collapsed" href="/home">
-            <i class="bi bi-box-arrow-in-left"></i>
-            <span><h5>Back</h5></span>
-            </a>
-              </li></div>
+            {{-- <li class="nav-item"> --}}
+           {{-- <a class="nav-link collapsed" href="/home"> --}}
+            {{-- <i class="bi bi-box-arrow-in-left"></i> --}}
+            {{-- <span><h5>Back</h5></span> --}}
+            {{-- </a> --}}
+              {{-- </li></div>  --}}
       </section>
       
     </div>

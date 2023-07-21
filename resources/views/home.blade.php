@@ -46,7 +46,7 @@
     <div class="d-flex align-items-center justify-content-between">
       <a href="index.html" class="logo d-flex align-items-center">
         <img src="assets/img/logo.png" alt="">
-        <span class="d-none d-lg-block">Upraise Admin</span>
+        <span class="d-none d-lg-block">Uprise Admin</span>
       </a>
       <i class="bi bi-list toggle-sidebar-btn"></i>
     </div><!-- End Logo -->
@@ -478,7 +478,7 @@
       <li class="nav-item">
         <a class="nav-link collapsed" href="/regist">
           <i class="bi bi-card-list"></i>
-          <span>Register</span>
+          <span>Register Client</span>
         </a>
       </li><!-- End Register Page Nav -->
 
